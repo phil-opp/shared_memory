@@ -3,7 +3,7 @@ use std::thread;
 
 use clap::Parser;
 use raw_sync::locks::*;
-use shared_memory::*;
+use shared_memory_extended::*;
 
 /// Spawns N threads that increment a value to 10 using a mutex
 #[derive(Parser)]
