@@ -8,18 +8,18 @@ A crate that allows you to share memory between __processes__. Fork of [elast0ny
 
 This crate provides lightweight wrappers around shared memory APIs in an OS agnostic way. It is intended to be used with it's sister crate [raw_sync](https://github.com/elast0ny/raw_sync-rs) which provide simple primitves to synchronize access to the shared memory (Mutex, RwLock, Events, etc...).
 
-| raw_sync |
-|----|
-|[![crates.io](https://img.shields.io/crates/v/raw_sync.svg)](https://crates.io/crates/raw_sync) [![docs.rs](https://docs.rs/raw_sync/badge.svg)](https://docs.rs/raw_sync/)|
+| raw_sync                                                                                                                                                                    |
+| --------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [![crates.io](https://img.shields.io/crates/v/raw_sync.svg)](https://crates.io/crates/raw_sync) [![docs.rs](https://docs.rs/raw_sync/badge.svg)](https://docs.rs/raw_sync/) |
 
 ## Usage
 
 For usage examples, see code located in [examples/](examples/) :
 
-  | Examples | Description |
-  |----------|-------------|
-  |[event](examples/event.rs)| Shows the use of shared events through shared memory|
-  |[mutex](examples/mutex.rs)| Shows the use of a shared mutex through shared memory|
+  | Examples                   | Description                                           |
+  | -------------------------- | ----------------------------------------------------- |
+  | [event](examples/event.rs) | Shows the use of shared events through shared memory  |
+  | [mutex](examples/mutex.rs) | Shows the use of a shared mutex through shared memory |
 
 ## License
 
