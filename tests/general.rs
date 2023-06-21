@@ -1,6 +1,6 @@
 use std::path::Path;
 
-use shared_memory::ShmemConf;
+use shared_memory_extended::ShmemConf;
 
 #[test]
 fn create_new() {

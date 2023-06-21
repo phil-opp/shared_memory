@@ -1,25 +1,25 @@
-# shared_memory
-[![Build Status](https://github.com/elast0ny/shared_memory-rs/workflows/build/badge.svg)](https://github.com/elast0ny/shared_memory-rs/actions?query=workflow%3Abuild)
+# shared_memory_extended
+[![Build Status](https://github.com/phil-opp/shared_memory/workflows/build/badge.svg)](https://github.com/phil-opp/shared_memory/actions?query=workflow%3Abuild)
 [![crates.io](https://img.shields.io/crates/v/shared_memory.svg)](https://crates.io/crates/shared_memory)
 [![mio](https://docs.rs/shared_memory/badge.svg)](https://docs.rs/shared_memory/)
-[![Lines of Code](https://tokei.rs/b1/github/elast0ny/shared_memory-rs?category=code)](https://tokei.rs/b1/github/elast0ny/shared_memory-rs?category=code)
+[![Lines of Code](https://tokei.rs/b1/github/phil-opp/shared_memory?category=code)](https://tokei.rs/b1/github/phil-opp/shared_memory?category=code)
 
-A crate that allows you to share memory between __processes__.
+A crate that allows you to share memory between __processes__. Fork of [elast0ny/shared_memory](https://github.com/elast0ny/shared_memory).
 
 This crate provides lightweight wrappers around shared memory APIs in an OS agnostic way. It is intended to be used with it's sister crate [raw_sync](https://github.com/elast0ny/raw_sync-rs) which provide simple primitves to synchronize access to the shared memory (Mutex, RwLock, Events, etc...).
 
-| raw_sync |
-|----|
-|[![crates.io](https://img.shields.io/crates/v/raw_sync.svg)](https://crates.io/crates/raw_sync) [![docs.rs](https://docs.rs/raw_sync/badge.svg)](https://docs.rs/raw_sync/)|
+| raw_sync                                                                                                                                                                    |
+| --------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [![crates.io](https://img.shields.io/crates/v/raw_sync.svg)](https://crates.io/crates/raw_sync) [![docs.rs](https://docs.rs/raw_sync/badge.svg)](https://docs.rs/raw_sync/) |
 
 ## Usage
 
 For usage examples, see code located in [examples/](examples/) :
 
-  | Examples | Description |
-  |----------|-------------|
-  |[event](examples/event.rs)| Shows the use of shared events through shared memory|
-  |[mutex](examples/mutex.rs)| Shows the use of a shared mutex through shared memory|
+  | Examples                   | Description                                           |
+  | -------------------------- | ----------------------------------------------------- |
+  | [event](examples/event.rs) | Shows the use of shared events through shared memory  |
+  | [mutex](examples/mutex.rs) | Shows the use of a shared mutex through shared memory |
 
 ## License
 

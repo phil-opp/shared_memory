@@ -1,6 +1,6 @@
 //! A thin wrapper around shared memory system calls
 //!
-//! For help on how to get started, take a look at the [examples](https://github.com/elast0ny/shared_memory-rs/tree/master/examples) !
+//! For help on how to get started, take a look at the [examples](https://github.com/phil-opp/shared_memory/tree/master/examples) !
 
 use std::fs::{File, OpenOptions};
 use std::io::{ErrorKind, Read, Write};

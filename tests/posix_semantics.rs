@@ -1,4 +1,4 @@
-use shared_memory::ShmemConf;
+use shared_memory_extended::ShmemConf;
 use std::sync::mpsc::channel;
 use std::thread;
 

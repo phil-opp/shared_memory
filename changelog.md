@@ -1,5 +1,10 @@
 # Changelog
 
+# 0.13.0
+
+- Create crate as fork of `shared_memory` crate
+- Add support for read-only mapping
+
 # 0.12.5
 - Update dependencies
 - Use minimal features for `nix` on unix systems

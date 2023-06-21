@@ -1,15 +1,15 @@
 [package]
-name = "shared_memory"
+name = "shared_memory_extended"
 description = "A user friendly crate that allows you to share memory between processes"
-version = "0.12.5"
+version = "0.13.0"
 authors = ["ElasT0ny <elast0ny00@gmail.com>"]
 license = "MIT OR Apache-2.0"
 edition = "2018"
 
 #Extra fields for crates.io
 readme = "README.md"
-documentation = "https://docs.rs/shared_memory"
-repository = "https://github.com/elast0ny/shared_memory-rs"
+documentation = "https://docs.rs/shared_memory_extended"
+repository = "https://github.com/phil-opp/shared_memory"
 keywords = ["shmem", "shared", "memory", "inter-process", "process"]
 categories = [
     "os::unix-apis",
@@ -39,5 +39,5 @@ win-sys = "0.3"
 
 [dev-dependencies]
 raw_sync = "0.1"
-clap = {version = "4", features = ["derive"]}
+clap = { version = "4", features = ["derive"] }
 env_logger = "0"

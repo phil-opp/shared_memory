@@ -1,7 +1,7 @@
 use std::thread;
 
 use clap::Parser;
-use shared_memory::*;
+use shared_memory_extended::*;
 
 /// Spawns N threads that increment a value to 100
 #[derive(Parser)]
